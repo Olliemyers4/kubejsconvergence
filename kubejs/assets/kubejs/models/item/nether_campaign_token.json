@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "kubejs:item/nether_campaign_token"
-  }
-}
