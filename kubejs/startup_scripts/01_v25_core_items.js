@@ -67,7 +67,16 @@
   "infra_core_t1",
   "infra_core_t2",
   "infra_core_t3",
-  "infra_core_t4"
+  "infra_core_t4",
+  "bridge_matrix_t1",
+  "bridge_matrix_t2",
+  "bridge_matrix_t3",
+  "bridge_matrix_t4",
+  "bridge_matrix_t5",
+  "bridge_matrix_t6",
+  "bridge_matrix_t7",
+  "bridge_matrix_t8"
+
 ];
   const NAMES = {
   "create_core_t1": "Create Core T1",
@@ -136,7 +145,15 @@
   "infra_core_t1": "Infrastructure Core T1",
   "infra_core_t2": "Infrastructure Core T2",
   "infra_core_t3": "Infrastructure Core T3",
-  "infra_core_t4": "Infrastructure Core T4"
+  "infra_core_t4": "Infrastructure Core T4",
+  "bridge_matrix_t1": "Bridge Matrix T1",
+  "bridge_matrix_t2": "Bridge Matrix T2",
+  "bridge_matrix_t3": "Bridge Matrix T3",
+  "bridge_matrix_t4": "Bridge Matrix T4",
+  "bridge_matrix_t5": "Bridge Matrix T5",
+  "bridge_matrix_t6": "Bridge Matrix T6",
+  "bridge_matrix_t7": "Bridge Matrix T7",
+  "bridge_matrix_t8": "Bridge Matrix T8"
 };
   StartupEvents.registry('item', event => {
     ITEMS.forEach(id => event.create(id).displayName(NAMES[id] || id).texture(`kubejs:item/${id}`))
