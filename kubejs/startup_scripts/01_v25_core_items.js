@@ -75,7 +75,8 @@
   "bridge_matrix_t5",
   "bridge_matrix_t6",
   "bridge_matrix_t7",
-  "bridge_matrix_t8"
+  "bridge_matrix_t8",
+  "convergence_manual_binding",
 
 ];
   const NAMES = {
@@ -153,7 +154,8 @@
   "bridge_matrix_t5": "Bridge Matrix T5",
   "bridge_matrix_t6": "Bridge Matrix T6",
   "bridge_matrix_t7": "Bridge Matrix T7",
-  "bridge_matrix_t8": "Bridge Matrix T8"
+  "bridge_matrix_t8": "Bridge Matrix T8",
+  "convergence_manual_binding": "Convergence Manual Binding",
 };
   StartupEvents.registry('item', event => {
     ITEMS.forEach(id => event.create(id).displayName(NAMES[id] || id).texture(`kubejs:item/${id}`))
