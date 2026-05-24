@@ -1,0 +1,15 @@
+{
+  "name": "Path flow",
+  "category": "patchouli:aero",
+  "icon": "kubejs:balloon_rigging",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Balloon Rigging and Burner Valve start the path. Hot air comes first, then propellers, then stabilization, then radar/cannons and finally fighter-tier platforms."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Crosses with Create for mechanics, Energy for engines, Exploration for trophies and Industry for cannon/airframe construction."
+    }
+  ]
+}

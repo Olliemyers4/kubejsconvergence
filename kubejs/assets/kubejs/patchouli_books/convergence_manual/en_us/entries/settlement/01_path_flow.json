@@ -1,0 +1,15 @@
+{
+  "name": "Path flow",
+  "category": "patchouli:settlement",
+  "icon": "kubejs:culinary_supply_manifest",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Kitchen Foundation Plan and Culinary Supply Manifest start the path. Farmer's Delight basics stay open; Cooking for Blockheads and food automation are midgame."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Crosses with Agriculture for ingredients, Create for Slice & Dice/automation, AE2 for stocked kitchens and Industry for large farms."
+    }
+  ]
+}

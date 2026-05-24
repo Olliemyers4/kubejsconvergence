@@ -1,0 +1,20 @@
+{
+  "name": "Agriculture Tiers",
+  "category": "patchouli:agriculture",
+  "icon": "kubejs:agriculture_core_t1",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Agriculture has 8 core tiers. Item IDs and book names match exactly: kubejs:agriculture_core_t1, kubejs:agriculture_core_t2, etc."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(item)kubejs:agriculture_core_t1$() gates: mysticalagriculture:infusion_altar, mysticalagriculture:infusion_pedestal, mysticalagriculture:inferium_farmland, botanypots:terracotta_botany_pot\n$(li)$(item)kubejs:agriculture_core_t2$() gates: mysticalagriculture:prudentium_essence, productivebees:centrifuge, mysticalagriculture:prudentium_farmland\n$(li)$(item)kubejs:agriculture_core_t3$() gates: mysticalagriculture:tertium_essence, botanypots:hopper_botany_pot, productivebees:advanced_oak_beehive\n$(li)$(item)kubejs:agriculture_core_t4$() gates: mysticalagriculture:imperium_essence, productivebees:powered_centrifuge\n$(li)$(item)kubejs:agriculture_core_t5$() gates: mysticalagriculture:supremium_essence\n$(li)$(item)kubejs:agriculture_core_t6$() gates: mysticalagriculture:master_infusion_crystal\n"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(item)kubejs:agriculture_core_t7$() gates: mysticalagradditions:insanium_essence\n$(li)$(item)kubejs:agriculture_core_t8$() gates: mysticalagradditions:insanium_block\n"
+    }
+  ]
+}

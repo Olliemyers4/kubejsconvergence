@@ -1,0 +1,20 @@
+{
+  "name": "Energy Tiers",
+  "category": "patchouli:energy",
+  "icon": "kubejs:energy_core_t1",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Energy has 7 core tiers. Item IDs and book names match exactly: kubejs:energy_core_t1, kubejs:energy_core_t2, etc."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(item)kubejs:energy_core_t1$() gates: mekanism:metallurgic_infuser, mekanism:basic_control_circuit, powah:energizing_rod_starter, powah:energy_cell_starter\n$(li)$(item)kubejs:energy_core_t2$() gates: mekanism:steel_casing, mekanism:advanced_control_circuit, powah:energizing_rod_basic, powah:energy_cell_basic\n$(li)$(item)kubejs:energy_core_t3$() gates: mekanism:elite_control_circuit, mekanism:energy_tablet, powah:energizing_rod_hardened\n$(li)$(item)kubejs:energy_core_t4$() gates: mekanism:ultimate_control_circuit, mekanism:teleportation_core, powah:energizing_rod_blazing\n$(li)$(item)kubejs:energy_core_t5$() gates: mekanism:teleporter, mekanism:qio_dashboard, mekanism:qio_drive_base, powah:energizing_rod_niotic\n"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(item)kubejs:energy_core_t6$() gates: mekanism:digital_miner, mekanism:ultimate_energy_cube, powah:energizing_rod_spirited\n$(li)$(item)kubejs:energy_core_t7$() gates: mekanism:qio_drive_time_dilating\n"
+    }
+  ]
+}

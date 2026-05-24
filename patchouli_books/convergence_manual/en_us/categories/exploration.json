@@ -1,0 +1,6 @@
+{
+  "name": "Exploration",
+  "description": "Exploration core path: 4 tiers.",
+  "icon": "kubejs:exploration_core_t1",
+  "sortnum": 9
+}

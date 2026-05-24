@@ -1,0 +1,15 @@
+{
+  "name": "Path flow",
+  "category": "patchouli:energy",
+  "icon": "kubejs:dielectric_regulator",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Dielectric Regulator and Metallurgic Bus start the path. Advanced circuits appear early-mid; Digital Miner, Teleporter, QIO and Nitro/Flux systems are late."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Crosses with Industry for machine frames, AE2 for logistics, Create for automation and Occultism/Travel for dimensional transfer."
+    }
+  ]
+}

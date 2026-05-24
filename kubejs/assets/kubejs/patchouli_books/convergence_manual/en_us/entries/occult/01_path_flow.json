@@ -1,0 +1,15 @@
+{
+  "name": "Path flow",
+  "category": "patchouli:occult",
+  "icon": "kubejs:spirit_attunement_lens",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Spirit Attunement Lens and Chalked Servo start the path. Storage and remote access are midgame; deep dimensional storage and Ender IO spawners are late."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Crosses with Ars for rituals, AE2 for storage, Energy for powered void systems and Travel for dimensional links."
+    }
+  ]
+}

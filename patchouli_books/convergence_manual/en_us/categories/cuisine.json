@@ -1,0 +1,6 @@
+{
+  "name": "Cuisine",
+  "description": "Cuisine core path: 4 tiers.",
+  "icon": "kubejs:cuisine_core_t1",
+  "sortnum": 8
+}

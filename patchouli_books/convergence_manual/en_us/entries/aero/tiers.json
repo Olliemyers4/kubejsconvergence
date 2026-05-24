@@ -1,0 +1,16 @@
+{
+  "name": "Aero Tiers",
+  "category": "patchouli:aero",
+  "icon": "kubejs:aero_core_t1",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Aero has 6 core tiers. Item IDs and book names match exactly: kubejs:aero_core_t1, kubejs:aero_core_t2, etc."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(item)kubejs:aero_core_t1$() gates: createpropulsion:stirling_engine, createpropulsion:solid_burner, simulated:rope_connector\n$(li)$(item)kubejs:aero_core_t2$() gates: createpropulsion:thruster, createpropulsion:wing, simulated:rope_winch\n$(li)$(item)kubejs:aero_core_t3$() gates: createpropulsion:liquid_vector_thruster, createpropulsion:tilt_adapter, simulated:gimbal_sensor\n$(li)$(item)kubejs:aero_core_t4$() gates: createpropulsion:ion_thruster, createpropulsion:redstone_transmission, simulated:docking_connector\n$(li)$(item)kubejs:aero_core_t5$() gates: createbigcannons:cannon_mount, createbigcannons:cannon_builder\n$(li)$(item)kubejs:aero_core_t6$() gates: createbigcannons:autocannon_ammo_container\n"
+    }
+  ]
+}

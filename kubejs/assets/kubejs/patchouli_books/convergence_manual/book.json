@@ -1,0 +1,8 @@
+{
+  "name": "Convergence Manual",
+  "landing_text": "A guide to the pack's soft progression: start anywhere, then bridge into other systems as your base matures.",
+  "version": 2,
+  "creative_tab": "minecraft:tools_and_utilities",
+  "model": "patchouli:book_blue",
+  "use_resource_pack": true
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Travel",
+  "description": "Travel core path: 4 tiers.",
+  "icon": "kubejs:travel_core_t1",
+  "sortnum": 11
+}

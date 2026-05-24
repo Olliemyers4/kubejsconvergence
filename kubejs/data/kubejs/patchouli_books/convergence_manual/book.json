@@ -1,0 +1,8 @@
+{
+  "name": "Convergence Manual",
+  "landing_text": "A progression guide for the server. Pick any core path, then use bridge components to enter the others without restarting from zero.",
+  "version": 2,
+  "use_resource_pack": true,
+  "book_texture": "patchouli:textures/gui/book_blue.png",
+  "model": "patchouli:book_blue"
+}

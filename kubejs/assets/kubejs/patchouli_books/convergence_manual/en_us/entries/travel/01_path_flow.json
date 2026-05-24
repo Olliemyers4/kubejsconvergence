@@ -1,0 +1,15 @@
+{
+  "name": "Path flow",
+  "category": "patchouli:travel",
+  "icon": "kubejs:ender_anchor_crystal",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ender Anchor Crystal and Warp Attunement Rod start the path. Waystones are early-mid; Compact Machines and AE2 Spatial are mid/late."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Crosses with Occultism and AE2 heavily, with Energy for teleport infrastructure and Aero for long-range logistics."
+    }
+  ]
+}

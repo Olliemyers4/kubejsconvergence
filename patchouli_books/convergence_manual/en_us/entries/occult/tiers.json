@@ -1,0 +1,16 @@
+{
+  "name": "Occultism Tiers",
+  "category": "patchouli:occult",
+  "icon": "kubejs:occult_core_t1",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Occultism has 6 core tiers. Item IDs and book names match exactly: kubejs:occult_core_t1, kubejs:occult_core_t2, etc."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(item)kubejs:occult_core_t1$() gates: occultism:spirit_attuned_gem, occultism:otherstone, occultism:chalk_white, occultism:otherstone_pedestal\n$(li)$(item)kubejs:occult_core_t2$() gates: occultism:storage_controller_base, occultism:chalk_gold, occultism:chalk_purple\n$(li)$(item)kubejs:occult_core_t3$() gates: occultism:storage_controller, occultism:storage_remote, occultism:stable_wormhole\n$(li)$(item)kubejs:occult_core_t4$() gates: enderio:travel_anchor, enderio:conduit_binder, enderio:item_conduit\n$(li)$(item)kubejs:occult_core_t5$() gates: enderio:powered_spawner, enderio:vibrant_crystal\n$(li)$(item)kubejs:occult_core_t6$() gates: enderio:dimensional_transceiver\n"
+    }
+  ]
+}

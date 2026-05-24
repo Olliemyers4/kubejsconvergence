@@ -1,0 +1,15 @@
+{
+  "name": "Crossovers",
+  "category": "patchouli:ars",
+  "icon": "kubejs:cross_discipline_adapter",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Crosses with Create for mechanisms, Occultism for rituals, Agriculture for source/nature loops, and AE2 for magical autocrafting."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Cross-Discipline Adapter has multiple recipes, so a second path can be chosen freely instead of locking everyone into the same order."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Create Tiers",
+  "category": "patchouli:create",
+  "icon": "kubejs:create_core_t1",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Create has 6 core tiers. Item IDs and book names match exactly: kubejs:create_core_t1, kubejs:create_core_t2, etc."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(item)kubejs:create_core_t1$() gates: create:mechanical_press, create:mechanical_mixer, create:millstone, create:mechanical_saw, create:mechanical_drill, create:basin\n$(li)$(item)kubejs:create_core_t2$() gates: create:deployer, create:mechanical_crafter, create:brass_casing, create:electron_tube, create:portable_storage_interface\n$(li)$(item)kubejs:create_core_t3$() gates: create:precision_mechanism, create:mechanical_arm, create:rotation_speed_controller, create:display_link\n$(li)$(item)kubejs:create_core_t4$() gates: create:schematicannon, create:track_station, create:track_signal, create:track_observer, create:steam_engine\n$(li)$(item)kubejs:create_core_t5$() gates: create:elevator_pulley, create:cart_assembler, create:controls, create:schematic_table\n"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(item)kubejs:create_core_t6$() gates: createaddition:electric_motor, createdieselgenerators:diesel_engine, create:crushing_wheel\n"
+    }
+  ]
+}

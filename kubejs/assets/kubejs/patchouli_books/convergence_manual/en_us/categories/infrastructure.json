@@ -1,0 +1,5 @@
+{
+  "name": "Infrastructure Support",
+  "description": "Building tools, storage controllers and large base support.",
+  "icon": "kubejs:cross_discipline_adapter"
+}

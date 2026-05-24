@@ -1,0 +1,15 @@
+{
+  "name": "Crossovers",
+  "category": "patchouli:travel",
+  "icon": "kubejs:cross_discipline_adapter",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Crosses with Occultism and AE2 heavily, with Energy for teleport infrastructure and Aero for long-range logistics."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Cross-Discipline Adapter has multiple recipes, so a second path can be chosen freely instead of locking everyone into the same order."
+    }
+  ]
+}

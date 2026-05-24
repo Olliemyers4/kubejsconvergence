@@ -1,0 +1,20 @@
+{
+  "name": "Industry Tiers",
+  "category": "patchouli:industry",
+  "icon": "kubejs:industry_core_t1",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Industry has 6 core tiers. Item IDs and book names match exactly: kubejs:industry_core_t1, kubejs:industry_core_t2, etc."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(item)kubejs:industry_core_t1$() gates: immersiveengineering:cokebrick, immersiveengineering:blastbrick, immersiveengineering:workbench, immersiveengineering:conveyor_basic\n$(li)$(item)kubejs:industry_core_t2$() gates: immersiveengineering:assembler, immersiveengineering:cloche, industrialforegoing:machine_frame_pity\n$(li)$(item)kubejs:industry_core_t3$() gates: industrialforegoing:machine_frame_simple, industrialforegoing:plant_sower, industrialforegoing:plant_gatherer\n$(li)$(item)kubejs:industry_core_t4$() gates: industrialforegoing:machine_frame_advanced, industrialforegoing:dissolution_chamber, immersiveengineering:generator\n$(li)$(item)kubejs:industry_core_t5$() gates: industrialforegoing:laser_drill, industrialforegoing:ore_laser_base, immersiveengineering:drill\n"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(item)kubejs:industry_core_t6$() gates: industrialforegoing:machine_frame_supreme, industrialforegoing:infinity_drill, immersiveengineering:tesla_coil\n"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Crossovers",
+  "category": "patchouli:energy",
+  "icon": "kubejs:cross_discipline_adapter",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Crosses with Industry for machine frames, AE2 for logistics, Create for automation and Occultism/Travel for dimensional transfer."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Cross-Discipline Adapter has multiple recipes, so a second path can be chosen freely instead of locking everyone into the same order."
+    }
+  ]
+}

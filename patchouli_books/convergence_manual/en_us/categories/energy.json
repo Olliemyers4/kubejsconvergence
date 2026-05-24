@@ -1,0 +1,6 @@
+{
+  "name": "Energy",
+  "description": "Energy core path: 7 tiers.",
+  "icon": "kubejs:energy_core_t1",
+  "sortnum": 4
+}

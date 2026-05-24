@@ -1,0 +1,15 @@
+{
+  "name": "What this gates",
+  "category": "patchouli:agriculture",
+  "icon": "kubejs:modular_upgrade_schematic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This path gates real mod items through the components listed in JEI. Look up the path components, then check uses to see the exact changed recipes."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The design target is soft gating: starting remains easy, scaling and server-impacting systems require cross-discipline progress."
+    }
+  ]
+}

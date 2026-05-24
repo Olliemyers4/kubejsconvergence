@@ -1,0 +1,15 @@
+{
+  "name": "Balance notes",
+  "category": "patchouli:overview",
+  "icon": "kubejs:cross_discipline_adapter",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Basic starts are open: Create shafts and early machines, Ars spellbook/source basics, AE2 charger/inscriber, Mekanism infuser, Farmer's Delight cooking, and early Mystical Agriculture are not the main gates."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Gates focus on scaling: autocrafting, advanced machine frames, QIO, teleporters, digital mining, quantum networking, high-tier bees/crops, aircraft weapons, compact space and creative-adjacent items."
+    }
+  ]
+}

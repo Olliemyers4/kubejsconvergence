@@ -1,0 +1,15 @@
+{
+  "name": "Crossovers",
+  "category": "patchouli:agriculture",
+  "icon": "kubejs:cross_discipline_adapter",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Crosses with Settlement for food/comfort, Industry for greenhouse machines, Ars for magical growth and Energy for powered agriculture."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Cross-Discipline Adapter has multiple recipes, so a second path can be chosen freely instead of locking everyone into the same order."
+    }
+  ]
+}

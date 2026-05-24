@@ -1,0 +1,16 @@
+{
+  "name": "AE2 Tiers",
+  "category": "patchouli:ae2",
+  "icon": "kubejs:ae2_core_t1",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "AE2 has 6 core tiers. Item IDs and book names match exactly: kubejs:ae2_core_t1, kubejs:ae2_core_t2, etc."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(item)kubejs:ae2_core_t1$() gates: ae2:inscriber, ae2:charger, ae2:energy_acceptor, ae2:fluix_glass_cable\n$(li)$(item)kubejs:ae2_core_t2$() gates: ae2:controller, ae2:annihilation_core, ae2:formation_core, ae2:cell_component_1k\n$(li)$(item)kubejs:ae2_core_t3$() gates: ae2:molecular_assembler, ae2:pattern_provider, ae2:crafting_unit, ae2:cell_component_4k\n$(li)$(item)kubejs:ae2_core_t4$() gates: ae2:wireless_receiver, ae2:wireless_access_point, ae2:cell_component_16k\n$(li)$(item)kubejs:ae2_core_t5$() gates: ae2:quantum_link, ae2:quantum_ring, ae2:spatial_io_port\n$(li)$(item)kubejs:ae2_core_t6$() gates: ae2:item_storage_cell_256k, ae2:256k_crafting_storage\n"
+    }
+  ]
+}

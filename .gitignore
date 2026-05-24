@@ -1,0 +1,7 @@
+*
+
+!.gitignore
+!kubejs/
+!kubejs/**
+!patchouli_books/
+!patchouli_books/**

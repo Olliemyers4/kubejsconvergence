@@ -1,0 +1,6 @@
+{
+  "name": "Agriculture",
+  "description": "Agriculture core path: 8 tiers.",
+  "icon": "kubejs:agriculture_core_t1",
+  "sortnum": 7
+}

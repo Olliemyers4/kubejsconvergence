@@ -1,0 +1,16 @@
+{
+  "name": "Exploration Tiers",
+  "category": "patchouli:exploration",
+  "icon": "kubejs:exploration_core_t1",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Exploration has 4 core tiers. Item IDs and book names match exactly: kubejs:exploration_core_t1, kubejs:exploration_core_t2, etc."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(item)kubejs:exploration_core_t1$() gates: minecraft:spyglass, minecraft:compass\n$(li)$(item)kubejs:exploration_core_t2$() gates: minecraft:ender_eye, minecraft:experience_bottle\n$(li)$(item)kubejs:exploration_core_t3$() gates: minecraft:ancient_debris\n$(li)$(item)kubejs:exploration_core_t4$() gates: crafts the next core and prepares the path\n"
+    }
+  ]
+}

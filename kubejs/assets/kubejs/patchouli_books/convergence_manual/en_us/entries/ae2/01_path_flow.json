@@ -1,0 +1,15 @@
+{
+  "name": "Path flow",
+  "category": "patchouli:ae2",
+  "icon": "kubejs:quartz_logic_wafer",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Quartz Logic Wafer and Fluix Memory Lattice are early. Molecular Assembler and Pattern Provider sit at midgame, matching AE2's actual autocrafting role."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Crosses with Create for processor automation, Ars for runic processors, Energy for QIO/power sync and Travel for spatial systems."
+    }
+  ]
+}

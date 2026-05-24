@@ -1,0 +1,16 @@
+{
+  "name": "Travel Tiers",
+  "category": "patchouli:travel",
+  "icon": "kubejs:travel_core_t1",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Travel has 4 core tiers. Item IDs and book names match exactly: kubejs:travel_core_t1, kubejs:travel_core_t2, etc."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(item)kubejs:travel_core_t1$() gates: waystones:waystone, waystones:warp_stone, waystones:warp_scroll\n$(li)$(item)kubejs:travel_core_t2$() gates: waystones:warp_plate, compactmachines:new_machine_tiny, compactmachines:new_machine_small\n$(li)$(item)kubejs:travel_core_t3$() gates: compactmachines:personal_shrinking_device, compactmachines:new_machine_normal\n$(li)$(item)kubejs:travel_core_t4$() gates: compactmachines:enlarging_module, compactmachines:new_machine_large\n"
+    }
+  ]
+}

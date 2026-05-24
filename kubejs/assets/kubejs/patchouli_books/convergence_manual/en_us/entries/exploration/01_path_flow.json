@@ -1,0 +1,15 @@
+{
+  "name": "Path flow",
+  "category": "patchouli:exploration",
+  "icon": "kubejs:explorer_survey",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Explorer Survey and Ancient Component Shard come from world exploration. End Remastered and Cataclysm gates sit here so combat/exploration remains relevant."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Crosses with Occultism, Aero, Travel and Energy for late-game campaigns and aircraft/boss readiness."
+    }
+  ]
+}

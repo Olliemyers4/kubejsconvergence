@@ -1,0 +1,15 @@
+{
+  "name": "Path flow",
+  "category": "patchouli:ars",
+  "icon": "kubejs:source_lens",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Source Lens and Glyphic Circuit are early. Enchanting Apparatus arrives around the first cross gate. Rituals and Wixie automation are midgame; Archmage content is late."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Crosses with Create for mechanisms, Occultism for rituals, Agriculture for source/nature loops, and AE2 for magical autocrafting."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Ars Nouveau Tiers",
+  "category": "patchouli:ars",
+  "icon": "kubejs:ars_core_t1",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ars Nouveau has 6 core tiers. Item IDs and book names match exactly: kubejs:ars_core_t1, kubejs:ars_core_t2, etc."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(item)kubejs:ars_core_t1$() gates: ars_nouveau:imbuement_chamber, ars_nouveau:source_jar, ars_nouveau:arcane_pedestal, ars_nouveau:arcane_core\n$(li)$(item)kubejs:ars_core_t2$() gates: ars_nouveau:enchanting_apparatus, ars_nouveau:spell_prism, ars_nouveau:relay, ars_nouveau:source_gem_block\n$(li)$(item)kubejs:ars_core_t3$() gates: ars_nouveau:ritual_brazier, ars_nouveau:wixie_charm, ars_nouveau:drygmy_charm, ars_nouveau:mob_jar\n$(li)$(item)kubejs:ars_core_t4$() gates: ars_nouveau:bookwyrm_charm, ars_nouveau:apprentice_spell_book, ars_elemental:advanced_prism\n$(li)$(item)kubejs:ars_core_t5$() gates: ars_nouveau:archmage_spell_book, arseng:me_source_jar, ars_nouveau:void_jar\n$(li)$(item)kubejs:ars_core_t6$() gates: ars_nouveau:ritual_flight\n"
+    }
+  ]
+}

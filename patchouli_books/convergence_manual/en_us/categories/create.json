@@ -1,0 +1,6 @@
+{
+  "name": "Create",
+  "description": "Create core path: 6 tiers.",
+  "icon": "kubejs:create_core_t1",
+  "sortnum": 1
+}

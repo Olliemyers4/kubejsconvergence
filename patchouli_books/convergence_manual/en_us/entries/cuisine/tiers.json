@@ -1,0 +1,16 @@
+{
+  "name": "Cuisine Tiers",
+  "category": "patchouli:cuisine",
+  "icon": "kubejs:cuisine_core_t1",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Cuisine has 4 core tiers. Item IDs and book names match exactly: kubejs:cuisine_core_t1, kubejs:cuisine_core_t2, etc."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(item)kubejs:cuisine_core_t1$() gates: farmersdelight:cooking_pot, farmersdelight:stove\n$(li)$(item)kubejs:cuisine_core_t2$() gates: cookingforblockheads:cooking_table\n$(li)$(item)kubejs:cuisine_core_t3$() gates: sliceanddice:slicer, cookingforblockheads:white_fridge, cookingforblockheads:white_oven\n$(li)$(item)kubejs:cuisine_core_t4$() gates: cookingforblockheads:preservation_chamber, cookingforblockheads:spice_rack\n"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Progression model",
+  "category": "patchouli:overview",
+  "icon": "kubejs:convergence_manual_binding",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Early game is vanilla plus structures. Loot gives Ancient Component Shards and route hints, not full automation."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Pick one core path freely. The first two steps of each path stay internal. Around stage 3 you need a Cross-Discipline Adapter, which can be made through several different pairs."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Midgame combines two paths regularly. Late game asks for several paths. Endgame combines all path capstones into the Universal Recipe Matrix."
+    }
+  ]
+}

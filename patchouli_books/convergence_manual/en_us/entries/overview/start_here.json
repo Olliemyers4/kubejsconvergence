@@ -1,0 +1,16 @@
+{
+  "name": "Start Here",
+  "category": "patchouli:overview",
+  "icon": "kubejs:bridge_matrix_t1",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "There are two item types: $(l)Core items$() and $(l)Bridge Matrices$(). Core items belong to one path and gate that path's real mod recipes. Bridge Matrices are made from cores from different paths and can craft items one tier lower in other paths."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Tier rule: T1-T3 cores use only their own path. T4-T6 cores require one supplementary core from another path. T7+ cores require two supplementary cores."
+    }
+  ]
+}

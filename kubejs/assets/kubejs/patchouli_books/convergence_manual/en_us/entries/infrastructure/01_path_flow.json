@@ -1,0 +1,15 @@
+{
+  "name": "Path flow",
+  "category": "patchouli:infrastructure",
+  "icon": "kubejs:gadget_calibration_plate",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This is not a main progression core anymore. It supports bases: storage controllers, building gadgets, compact builders and large infrastructure."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Crosses with almost everything, but mostly exists to make server-scale building and storage part of late progression without pretending decoration is a core mod."
+    }
+  ]
+}

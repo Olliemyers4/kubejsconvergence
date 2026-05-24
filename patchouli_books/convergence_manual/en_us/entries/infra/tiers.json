@@ -1,0 +1,16 @@
+{
+  "name": "Infrastructure Tiers",
+  "category": "patchouli:infra",
+  "icon": "kubejs:infra_core_t1",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Infrastructure has 4 core tiers. Item IDs and book names match exactly: kubejs:infra_core_t1, kubejs:infra_core_t2, etc."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(item)kubejs:infra_core_t1$() gates: storagedrawers:oak_full_drawers_1, sophisticatedstorage:barrel, ironchest:iron_chest\n$(li)$(item)kubejs:infra_core_t2$() gates: storagedrawers:controller, sophisticatedstorage:controller, sophisticatedbackpacks:backpack\n$(li)$(item)kubejs:infra_core_t3$() gates: buildinggadgets2:gadget_building, buildinggadgets2:gadget_exchanging\n$(li)$(item)kubejs:infra_core_t4$() gates: buildinggadgets2:gadget_copy_paste, buildinggadgets2:gadget_destruction\n"
+    }
+  ]
+}

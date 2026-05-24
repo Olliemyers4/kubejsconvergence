@@ -1,0 +1,15 @@
+{
+  "name": "Crossovers",
+  "category": "patchouli:occult",
+  "icon": "kubejs:cross_discipline_adapter",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Crosses with Ars for rituals, AE2 for storage, Energy for powered void systems and Travel for dimensional links."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Cross-Discipline Adapter has multiple recipes, so a second path can be chosen freely instead of locking everyone into the same order."
+    }
+  ]
+}

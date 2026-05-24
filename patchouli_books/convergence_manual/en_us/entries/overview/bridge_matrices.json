@@ -1,0 +1,12 @@
+{
+  "name": "Bridge Matrices",
+  "category": "patchouli:overview",
+  "icon": "kubejs:bridge_matrix_t2",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Bridge Matrix Tn is crafted from Core Tn items from different paths. It provides an alternate route into recipes from tier n-1 in another path."
+    }
+  ]
+}

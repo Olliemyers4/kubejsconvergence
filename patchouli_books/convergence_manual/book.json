@@ -1,0 +1,8 @@
+{
+  "name": "Convergence Manual",
+  "landing_text": "Progression is split into Core items and Bridge Matrices. Core items unlock their own path. Bridge Matrices let established players catch up in other paths without restarting from zero.",
+  "version": 25,
+  "creative_tab": "minecraft:tools_and_utilities",
+  "model": "patchouli:book_blue",
+  "use_resource_pack": true
+}

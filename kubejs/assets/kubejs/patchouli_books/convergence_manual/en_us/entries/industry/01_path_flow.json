@@ -1,0 +1,15 @@
+{
+  "name": "Path flow",
+  "category": "patchouli:industry",
+  "icon": "kubejs:treated_machine_plate",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Treated Machine Plate and Coke-Calibrated Gear start heavy industry. Assembler and Cloche are midgame; Excavator, Laser Drill and Supreme Frames are late."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Crosses with Agriculture for greenhouse/laser scaling, Create for mechanical handling, Energy for power and AE2 for factory requests."
+    }
+  ]
+}

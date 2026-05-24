@@ -1,0 +1,15 @@
+{
+  "name": "Path flow",
+  "category": "patchouli:agriculture",
+  "icon": "kubejs:growth_lattice",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Growth Lattice and Honeyed Logic Cell start the path. Infusion Altar and Hopper Botany Pots are early-mid. Advanced bees, Master Infusion Crystal and Insanium are late."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Crosses with Settlement for food/comfort, Industry for greenhouse machines, Ars for magical growth and Energy for powered agriculture."
+    }
+  ]
+}

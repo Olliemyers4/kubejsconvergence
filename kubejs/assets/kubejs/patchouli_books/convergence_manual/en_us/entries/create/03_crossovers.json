@@ -1,0 +1,15 @@
+{
+  "name": "Crossovers",
+  "category": "patchouli:create",
+  "icon": "kubejs:cross_discipline_adapter",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Crosses best with Ars for Arcane Mechanisms, AE2 for processor automation, Industry for components, Energy for powered factories and Aero for aircraft."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Cross-Discipline Adapter has multiple recipes, so a second path can be chosen freely instead of locking everyone into the same order."
+    }
+  ]
+}

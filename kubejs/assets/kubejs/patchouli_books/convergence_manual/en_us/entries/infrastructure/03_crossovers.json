@@ -1,0 +1,15 @@
+{
+  "name": "Crossovers",
+  "category": "patchouli:infrastructure",
+  "icon": "kubejs:cross_discipline_adapter",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Crosses with almost everything, but mostly exists to make server-scale building and storage part of late progression without pretending decoration is a core mod."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Cross-Discipline Adapter has multiple recipes, so a second path can be chosen freely instead of locking everyone into the same order."
+    }
+  ]
+}
