@@ -62,4 +62,30 @@ ServerEvents.recipes(event => {
     event.recipes.create.mechanical_crafting('create:windmill_bearing', ['L','T','I'], {L:{tag:'minecraft:wooden_slabs'},T:'create:andesite_casing',I:'create:shaft'});
 
     // Need T2
+    // Physics assembler
+    event.remove({id:'simulated:physics_assembler'});
+    event.shaped(Item.of('simulated:physics_assembler',1), [' L ','ATA'], {T:'kubejs:create_core_t2',A:'create:andesite_alloy',L:'minecraft:lever'});
+
+    // Mechanical crafter
+    event.remove({id:'create:crafting/kinetics/mechanical_crafter'});
+    event.shaped(Item.of('create:mechanical_crafter',3), ['E','T','C'], {E:'create:electron_tube',T:'kubejs:create_core_t2',C:'minecraft:crafting_table'});
+    event.recipes.create.mechanical_crafting(Item.of('create:mechanical_crafter',3), ['E','T','C'], {E:'create:electron_tube',T:'create:brass_casing',C:'minecraft:crafting_table'});
+
+    // Encased fan
+    event.remove({id:'create:crafting/kinetics/encased_fan'});
+    event.shaped(Item.of('create:encased_fan',1), ['S','T','F'], {T:'kubejs:create_core_t2',F:'create:propeller',S:'create:shaft'});
+
+    // Deployer
+    event.remove({id:'create:crafting/kinetics/deployer'});
+    event.shaped(Item.of('create:deployer',1), ['E','T','H'], {E:'create:electron_tube',T:'kubejs:create_core_t2',H:'create:brass_hand'});
+
+    // Spout
+    event.remove({id:'create:crafting/kinetics/spout'});
+    event.shaped(Item.of('create:spout',1), ['T','K'], {T:'kubejs:create_core_t2',K:'minecraft:dried_kelp'});
+
+    // Sequenced gearshift
+    event.remove({id:'create:crafting/kinetics/sequenced_gearshift'});
+    event.shaped(Item.of('create:sequenced_gearshift',1), ['TC','E'], {T:'kubejs:create_core_t2',C:'create:cogwheel',E:'create:electron_tube'});
+    event.recipes.create.mixing('create:sequenced_gearshift',['kubejs:create_core_t2','create:cogwheel','create:electron_tube']);
+
 });
