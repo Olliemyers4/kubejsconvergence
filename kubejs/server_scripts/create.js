@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    //Need T1
+    //**Need T1**
 
     //Waterwheel
     event.remove({output:'create:water_wheel'});
@@ -61,7 +61,7 @@ ServerEvents.recipes(event => {
     event.shaped(Item.of('create:windmill_bearing',1), ['L','T','I'], {L:{tag:'minecraft:wooden_slabs'},T:'kubejs:create_core_t1',I:'create:shaft'});
     event.recipes.create.mechanical_crafting('create:windmill_bearing', ['L','T','I'], {L:{tag:'minecraft:wooden_slabs'},T:'create:andesite_casing',I:'create:shaft'});
 
-    // Need T2
+    //***Need T2***
     // Physics assembler
     event.remove({id:'simulated:physics_assembler'});
     event.shaped(Item.of('simulated:physics_assembler',1), [' L ','ATA'], {T:'kubejs:create_core_t2',A:'create:andesite_alloy',L:'minecraft:lever'});
@@ -85,7 +85,33 @@ ServerEvents.recipes(event => {
 
     // Sequenced gearshift
     event.remove({id:'create:crafting/kinetics/sequenced_gearshift'});
-    event.shaped(Item.of('create:sequenced_gearshift',1), ['TC','E'], {T:'kubejs:create_core_t2',C:'create:cogwheel',E:'create:electron_tube'});
+    event.shaped(Item.of('create:sequenced_gearshift',1), ['TC','E '], {T:'kubejs:create_core_t2',C:'create:cogwheel',E:'create:electron_tube'});
     event.recipes.create.mixing('create:sequenced_gearshift',['kubejs:create_core_t2','create:cogwheel','create:electron_tube']);
+
+    //***Need T3***
+    // Crusher
+    event.remove({id:'create:mechanical_crafting/crushing_wheel'});
+    event.recipes.create.mechanical_crafting(Item.of('create:crushing_wheel',2), [' AAA ','AAWAA','AWTWA','AAWAA',' AAA '], {A:'create:andesite_alloy',W:{tag:'minecraft:wooden_planks'},T:'kubejs:create_core_t3'});
+
+    // Mechanical Arm
+    event.remove({id:'create:crafting/kinetics/mechanical_arm'});
+    event.shaped(Item.of('create:mechanical_arm',1), ['BBA','B  ','PT'], {B:'create:brass_sheet',P:'create:precision_mechanism',T:'kubejs:create_core_t3',A:'create:andesite_alloy'});
+
+    // Rotation speed controller
+    event.remove({id:'create:crafting/kinetics/rotation_speed_controller'});
+    event.shaped(Item.of('create:rotation_speed_controller',1), ['P','T'], {T:'kubejs:create_core_t3',P:'create:precision_mechanism'});
+
+    // Display link
+    event.remove({id:'create:crafting/logistics/display_link'});
+    event.shaped(Item.of('create:display_link',1), ['P','T'], {T:'kubejs:create_core_t3',P:'create:transmitter'});
+
+
+    // Mechanical drill
+    event.remove({id:'create:crafting/kinetics/mechanical_drill'});
+    event.shaped(Item.of('create:mechanical_drill',1), [' A ','AIA','T'], {A:'create:andesite_alloy',I:'minecraft:iron_ingot',T:'kubejs:create_core_t3'});
+
+    // Mechanical Harvester
+    event.remove({id:'create:crafting/kinetics/mechanical_harvester'});
+    event.shaped(Item.of('create:mechanical_harvester',1), ['AIA ','AIA','T'], {A:'create:andesite_alloy',I:{tag:'c:plates/iron'},T:'kubejs:create_core_t3'});
 
 });
