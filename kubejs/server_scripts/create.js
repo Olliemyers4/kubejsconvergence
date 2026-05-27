@@ -130,4 +130,14 @@ ServerEvents.recipes(event => {
     event.remove({id:'create:crafting/kinetics/train_station'});
     event.shaped(Item.of('create:train_station',4), ['T','C'], {T:'kubejs:create_core_t4',C:'minecraft:compass'});
 
+    // ***Need T5***
+    // Cart assembler
+    event.remove({id:'create:crafting/kinetics/cart_assembler'});
+    event.shaped(Item.of('create:cart_assembler',2), ['ARA','LTL'], {T:'kubejs:create_core_t5',A:'create:andesite_alloy',R:'minecraft:redstone',L:{tag:'minecraft:logs'}});
+
+    // Elevator Pulley
+    event.remove({id:'create:crafting/kinetics/elevator_pulley'});
+    event.shaped(Item.of('create:elevator_pulley',10), ['T','K','I'], {T:'kubejs:create_core_t5',K:'minecraft:dried_kelp_block',I:{tag:'c:plates/iron'}});
+
+
 });
