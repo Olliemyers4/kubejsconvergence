@@ -95,7 +95,7 @@ ServerEvents.recipes(event => {
 
     // Mechanical Arm
     event.remove({id:'create:crafting/kinetics/mechanical_arm'});
-    event.shaped(Item.of('create:mechanical_arm',1), ['BBA','B  ','PT'], {B:'create:brass_sheet',P:'create:precision_mechanism',T:'kubejs:create_core_t3',A:'create:andesite_alloy'});
+    event.shaped(Item.of('create:mechanical_arm',1), ['BBA','B  ','PT '], {B:'create:brass_sheet',P:'create:precision_mechanism',T:'kubejs:create_core_t3',A:'create:andesite_alloy'});
 
     // Rotation speed controller
     event.remove({id:'create:crafting/kinetics/rotation_speed_controller'});
@@ -107,11 +107,11 @@ ServerEvents.recipes(event => {
 
     // Mechanical drill
     event.remove({id:'create:crafting/kinetics/mechanical_drill'});
-    event.shaped(Item.of('create:mechanical_drill',3), [' A ','AIA','T'], {A:'create:andesite_alloy',I:'minecraft:iron_ingot',T:'kubejs:create_core_t3'});
+    event.shaped(Item.of('create:mechanical_drill',3), [' A ','AIA','T  '], {A:'create:andesite_alloy',I:'minecraft:iron_ingot',T:'kubejs:create_core_t3'});
 
     // Mechanical Harvester
     event.remove({id:'create:crafting/kinetics/mechanical_harvester'});
-    event.shaped(Item.of('create:mechanical_harvester',3), ['AIA ','AIA','T'], {A:'create:andesite_alloy',I:{tag:'c:plates/iron'},T:'kubejs:create_core_t3'});
+    event.shaped(Item.of('create:mechanical_harvester',3), ['AIA','AIA','T  '], {A:'create:andesite_alloy',I:{tag:'c:plates/iron'},T:'kubejs:create_core_t3'});
 
     // ***Need T4***
     // Blaze burner
@@ -119,16 +119,16 @@ ServerEvents.recipes(event => {
     event.shaped(Item.of('create:empty_blaze_burner',3), [' I ','ITI',' I '], {I:{tag:'c:plates/iron'},T:'kubejs:create_core_t4'});
 
     // Schematicanon
-    event.remove({id:'create:crafting/schematics/schematicaannon'});
-    event.shaped(Item.of('create:schematicaannon',1), [' I ','LIL','STS'], {I:'minecraft:iron_block',L:{tag:'minecraft:logs'},S:'minecraft:smooth_stone',T:'kubejs:create_core_t4'});
+    event.remove({id:'create:crafting/schematics/schematicannon'});
+    event.shaped(Item.of('create:schematicannon',1), [' I ','LIL','STS'], {I:'minecraft:iron_block',L:{tag:'minecraft:logs'},S:'minecraft:smooth_stone',T:'kubejs:create_core_t4'});
 
     // Steam Engine
     event.remove({id:'create:crafting/kinetics/steam_engine'});
     event.shaped(Item.of('create:steam_engine',1), ['G','A','T'], {G:{tag:'c:plates/gold'},A:'create:andesite_alloy',T:'kubejs:create_core_t4'});
 
     // Train Station
-    event.remove({id:'create:crafting/kinetics/train_station'});
-    event.shaped(Item.of('create:train_station',4), ['T','C'], {T:'kubejs:create_core_t4',C:'minecraft:compass'});
+    event.remove({id:'create:crafting/kinetics/track_station'});
+    event.shaped(Item.of('create:track_station',4), ['T','C'], {T:'kubejs:create_core_t4',C:'minecraft:compass'});
 
     // ***Need T5***
     // Cart assembler
