@@ -192,4 +192,79 @@ ServerEvents.recipes(event => {
     // some recipe to make t3 components with drygmy charms
     event.shapeless(Item.of('kubejs:ars_core_t3',1),['ars_nouveau:drygmy_charm','kubejs:ars_core_t1','ars_nouveau:source_gem','ars_nouveau:wixie_charm']).keepIngredient('ars_nouveau:drygmy_charm').keepIngredient('ars_nouveau:wixie_charm');
     event.recipes.create.mixing(['kubejs:ars_core_t3','ars_nouveau:drygmy_charm','ars_nouveau:wixie_charm'],['ars_nouveau:drygmy_charm','kubejs:ars_core_t1','ars_nouveau:source_gem','ars_nouveau:wixie_charm']);
+
+    // **Need T4**
+
+    // Archmage spell book
+    event.remove({id:'ars_nouveau:archmage_book_upgrade'});
+    event.shapeless(Item.of('ars_nouveau:archmage_spell_book',1),['ars_nouveau:apprentice_spell_book','kubejs:ars_core_t4','2x minecraft:ender_pearl', '2x minecraft:emerald', 'minecraft:totem_of_undying', 'minecraft:nether_star','ars_nouveau:wilden_tribute']);
+
+    // Ender Source jar
+    event.remove({id:'ars_additions:apparatus/ender_source_jar'});
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        ['minecraft:ender_pearl', 'minecraft:ender_pearl', 'minecraft:ender_pearl', 'kubejs:ars_core_t4','minecraft:popped_chorus_fruit','minecraft:popped_chorus_fruit','minecraft:popped_chorus_fruit','minecraft:popped_chorus_fruit'], // input items
+        'ars_nouveau:source_jar', // reagent
+        'ars_additions:ender_source_jar', // output
+        0 // source cost
+        // true // keep nbt of reagent, think like a smithing recipe
+    )
+    //event.remove({id:'arseng:me_source_jar'});
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        ['kubejs:ars_core_t4','ars_nouveau:manipulation_essence',Ingredient.of({tag:'ae2:interface'},1)], // input items
+        'ars_nouveau:source_jar', // reagent
+        'arseng:me_source_jar', // output
+        0 // source cost
+        // true // keep nbt of reagent, think like a smithing recipe
+    )
+
+    // Homing Projectile rune
+    event.remove({id:'ars_elemental:glyph_homing_projectile'});
+    event.recipes.ars_nouveau.glyph(
+        'ars_elemental:glyph_homing_projectile', // output item (glyph)
+        [Ingredient.of('minecraft:nether_star'),Ingredient.of('minecraft:ender_eye'),Ingredient.of('kubejs:ars_core_t4'),Ingredient.of('ars_nouveau:dowsing_rod')], // input items
+        160  // exp cost 10lvl
+    );
+
+    // Recall Rune
+    event.remove({id:'ars_additions:glyph_recall'});
+    event.recipes.ars_nouveau.glyph(
+        'ars_additions:glyph_recall', // output item (glyph)
+        [Ingredient.of('minecraft:ender_pearl'),Ingredient.of('ars_nouveau:conjuration_essence'),Ingredient.of('kubejs:ars_core_t4'),Ingredient.of('ars_nouveau:enchanters_eye'),Ingredient.of('ars_nouveau:scryer_scroll')], // input items
+        160  // exp cost 10lvl
+    );
+
+    // Retaliate rune
+    event.remove({id:'ars_additions:glyph_retaliate'});
+    event.recipes.ars_nouveau.glyph(
+        'ars_additions:glyph_retaliate', // output item (glyph)
+        [Ingredient.of('minecraft:netherite_sword'),Ingredient.of('minecraft:enchanted_book'),Ingredient.of('kubejs:ars_core_t4')], // input items
+        160  // exp cost 10lvl
+    );
+    // Split rune
+    event.remove({id:'ars_nouveau:glyph_split'});
+    event.recipes.ars_nouveau.glyph(
+        'ars_nouveau:glyph_split', // output item (glyph)
+        [Ingredient.of('minecraft:stonecutter'),Ingredient.of('ars_nouveau:wilden_spike'),Ingredient.of('kubejs:ars_core_t4'),Ingredient.of('ars_nouveau:relay_splitter')], // input items
+        160  // exp cost 10lvl
+    );
+
+    // **Need T5**
+    // Super heat rune
+    event.remove({id:'ars_technica:glyph_superheat'});
+    event.recipes.ars_nouveau.glyph(
+        'ars_technica:glyph_superheat', // output item (glyph)
+        [Ingredient.of('minecraft:blaze_rod'),Ingredient.of('ars_nouveau:fire_essence'),Ingredient.of('kubejs:ars_core_t5'),Ingredient.of('ars_nouveau:fire_essence'),Ingredient.of('ars_nouveau:fire_essence'),Ingredient.of('create:blaze_cake')], // input items
+        160  // exp cost 30lvl
+    );
+
+    //Jar of voiding
+    event.remove({id:'ars_nouveau:void_jar'});
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        ['minecraft:ender_pearl', 'ars_nouveau:allow_scroll', 'minecraft:bucket', 'kubejs:ars_core_t5','minecraft:lava_bucket'], // input items
+        'ars_nouveau:source_jar', // reagent
+        'ars_nouveau:void_jar', // output
+        0 // source cost
+        // true // keep nbt of reagent, think like a smithing recipe
+    ).replaceIngredient('minecraft:lava_bucket', 'minecraft:bucket');
+
 });
