@@ -74,16 +74,16 @@ ServerEvents.recipes(event => {
         27  // exp cost 3lvl
     );
 
-    // **Need T2**
+    // **Need T2**e
 
     // Mage's Spell book
     event.remove({id:'ars_nouveau:apprentice_book_upgrade'});
     event.shapeless(Item.of('ars_nouveau:apprentice_spell_book',1),['ars_nouveau:novice_spell_book','kubejs:ars_core_t2','3x minecraft:diamond', '2x minecraft:blaze_rod', '2x minecraft:quartz_block']);
 
     // Arc projectile rune
-    event.remove({id:'ars_nouveau:glyph_arc_projectile'});
+    event.remove({id:'ars_elemental:glyph_arc_projectile'});
     event.recipes.ars_nouveau.glyph(
-        'ars_nouveau:glyph_arc_projectile', // output item (glyph)
+        'ars_elemental:glyph_arc_projectile', // output item (glyph)
         [Ingredient.of('minecraft:arrow'),Ingredient.of('minecraft:snowball'),Ingredient.of('kubejs:ars_core_t2'),Ingredient.of('minecraft:ender_pearl'),Ingredient.of('minecraft:slime_ball')], // input items
         55  // exp cost 5lvl
     );
@@ -137,9 +137,9 @@ ServerEvents.recipes(event => {
     );
 
     // luck rune
-    event.remove({id:'ars_nouveau:glyph_luck'});
+    event.remove({id:'ars_nouveau:glyph_fortune'});
     event.recipes.ars_nouveau.glyph(
-        'ars_nouveau:glyph_luck', // output item (glyph)
+        'ars_nouveau:glyph_fortune', // output item (glyph)
         [Ingredient.of('minecraft:rabbit_foot'),Ingredient.of('kubejs:ars_core_t2')], // input items
         55  // exp cost 5lvl
     );
@@ -153,9 +153,9 @@ ServerEvents.recipes(event => {
     );
 
     // reduce time rune
-    event.remove({id:'ars_nouveau:glyph_reduce_time'});
+    event.remove({id:'ars_nouveau:glyph_duration_down'});
     event.recipes.ars_nouveau.glyph(
-        'ars_nouveau:glyph_reduce_time', // output item (glyph)
+        'ars_nouveau:glyph_duration_down', // output item (glyph)
         [Ingredient.of('minecraft:clock'),Ingredient.of('kubejs:ars_core_t2'),Ingredient.of('minecraft:glowstone_dust')], // input items
         55  // exp cost 5lvl
     );
@@ -164,5 +164,32 @@ ServerEvents.recipes(event => {
     event.remove({id:'ars_nouveau:spell_prism'});
     event.shaped(Item.of('ars_nouveau:spell_prism',1), ['GPG','PTP','GPG'], {P:'ars_nouveau:archwood_planks',T:'kubejs:ars_core_t2',G:'minecraft:gold_ingot'});
 
+    // **Need T3**
+    // Wixie Charm
+    event.remove({id:'ars_nouveau:wixie_charm'});
+        event.recipes.ars_nouveau.enchanting_apparatus(
+        [{tag: 'minecraft:saplings'}, 'minecraft:emerald', 'minecraft:brewing_stand', 'kubejs:ars_core_t3'], // input items
+        'ars_nouveau:wixie_shards', // reagent
+        'ars_nouveau:wixie_charm', // output
+        0 // source cost
+        // true // keep nbt of reagent, think like a smithing recipe
+    )
 
+    // Drygmy charm
+    event.remove({id:'ars_nouveau:drygmy_charm'});
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        ['ars_nouveau:source_gem', 'ars_nouveau:source_gem', 'ars_nouveau:source_gem', 'kubejs:ars_core_t3',{tag: 'minecraft:fishes'},'minecraft:apple','minecraft:carrot',{tag: 'c:seeds'}], // input items
+        'ars_nouveau:drygmy_shard', // reagent
+        'ars_nouveau:drygmy_charm', // output
+        0 // source cost
+        // true // keep nbt of reagent, think like a smithing recipe
+    )
+
+    // Containment Jar
+    event.remove({id:'ars_nouveau:mob_jar'});
+    event.shaped(Item.of('ars_nouveau:mob_jar',1), ['SSS','GTG','GGG'], {S:'ars_nouveau:archwood_slab',T:'kubejs:ars_core_t3',G:{tag:'createbigcannons:glass'}});
+
+    // some recipe to make t3 components with drygmy charms
+    event.shapeless(Item.of('kubejs:ars_core_t3',1),['ars_nouveau:drygmy_charm','kubejs:ars_core_t1','ars_nouveau:source_gem','ars_nouveau:wixie_charm']).keepIngredient('ars_nouveau:drygmy_charm').keepIngredient('ars_nouveau:wixie_charm');
+    event.recipes.create.mixing(['kubejs:ars_core_t3','ars_nouveau:drygmy_charm','ars_nouveau:wixie_charm'],['ars_nouveau:drygmy_charm','kubejs:ars_core_t1','ars_nouveau:source_gem','ars_nouveau:wixie_charm']);
 });
