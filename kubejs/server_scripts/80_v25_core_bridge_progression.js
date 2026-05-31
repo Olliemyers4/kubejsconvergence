@@ -60,7 +60,7 @@
         "create:andesite_casing"
       ],
       [
-        "create:mechanical_press",
+        "create:depot",
         "create:mechanical_mixer",
         "create:basin",
         "create:belt_connector"
@@ -92,9 +92,9 @@
     ],
     "ars": [
       [
-        "ars_nouveau:source_gem",
+        "ars_nouveau:magebloom_block",
         "ars_nouveau:blank_parchment",
-        "ars_nouveau:sourcestone",
+        "ars_nouveau:blank_thread",
         "ars_nouveau:magebloom_fiber"
       ],
       [
