@@ -113,6 +113,24 @@ ServerEvents.recipes(event => {
     event.remove({id:'create:crafting/kinetics/mechanical_harvester'});
     event.shaped(Item.of('create:mechanical_harvester',3), ['AIA','AIA','T  '], {A:'create:andesite_alloy',I:{tag:'c:plates/iron'},T:'kubejs:create_core_t3'});
 
+    //Cobble gens
+    event.remove({id:'cobblegengalore:crafting/block_gen_stone'});
+    event.remove({id:'cobblegengalore:crafting/block_gen_copper'});
+    event.remove({id:'cobblegengalore:crafting/block_gen_iron'});
+    event.remove({id:'cobblegengalore:crafting/block_gen_gold'});
+    event.remove({id:'cobblegengalore:crafting/block_gen_emerald'});
+    event.remove({id:'cobblegengalore:crafting/block_gen_diamond'});
+    event.remove({id:'cobblegengalore:crafting/block_gen_netherite'});
+
+    event.shaped(Item.of('cobblegengalore:block_gen_stone',1), ['SSS','GTG','SSS'], {S:'minecraft:smooth_stone',T:'kubejs:create_core_t3',G:'minecraft:glass'});
+    event.shaped(Item.of('cobblegengalore:block_gen_copper',1), ['CCC','GTG','CCC'], {C:'minecraft:copper_ingot',T:'kubejs:create_core_t3',G:'minecraft:glass'});
+    event.shaped(Item.of('cobblegengalore:block_gen_iron',1), ['III','GTG','III'], {I:'minecraft:iron_ingot',T:'kubejs:create_core_t3',G:'minecraft:glass'});
+    event.shaped(Item.of('cobblegengalore:block_gen_gold',1), ['III','GTG','III'], {I:'minecraft:gold_ingot',T:'kubejs:create_core_t3',G:'minecraft:glass'});
+    event.shaped(Item.of('cobblegengalore:block_gen_emerald',1), ['EEE','GTG','EEE'], {E:'minecraft:emerald',T:'kubejs:create_core_t3',G:'minecraft:glass'});
+    event.shaped(Item.of('cobblegengalore:block_gen_diamond',1), ['DDD','GTG','DDD'], {D:'minecraft:diamond',T:'kubejs:create_core_t3',G:'minecraft:glass'});
+    event.shaped(Item.of('cobblegengalore:block_gen_netherite',1), ['NNN','GTG','NNN'], {N:'minecraft:netherite_ingot',T:'kubejs:create_core_t3',G:'minecraft:glass'});
+
+
     // ***Need T4***
     // Blaze burner
     event.remove({id:'create:crafting/kinetics/empty_blaze_burner'});
